@@ -1,0 +1,13 @@
+@font-face { font-family: 'LibertinusMono'; src: url('./LibertinusMono.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Danfo'; src: url('./Danfo.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+body { font-family: LibertinusMono, serif; font-size: large; background-color: darkblue;}
+#container { background-color: blue; padding: 10px; max-width: 800px; color: white; }
+.baner { height: auto; width: 60%; image-rendering: pixelated; }
+a, a:visited { color: yellow; text-decoration: none; }
+a:hover { color: white; font-style: italic; text-decoration: wavy underline;}
+table td { padding: 10px; }
+ul { margin: 5px; margin-bottom: 10px; }
+h1 { margin: 3px; margin-left: 0; font-family: Danfo, sans; letter-spacing: 15px; }
+h2 { margin: 10px; margin-left: 0; }
+h2 img { padding-right: 6px; }
+footer { margin-top: 25px; color: lightblue; }
